@@ -92,3 +92,12 @@
     
 })(jQuery);
 
+
+// Text Animation
+var type = new Typed(".animatedTxt", {
+  strings: ["Energy & Petroleum Products", "Aviation & Transportation", "Business Advisory & Financing", "Business Consultation"],
+  typeSpeed: 150,
+  backSpeed: 150,
+  loop: true,
+});
+
