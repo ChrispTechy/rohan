@@ -208,7 +208,7 @@ h6,
   }
 
   .sticky-top.navbar-light .btn {
-    color: var(--dark);
+    color: white;
     background: var(--secondary);
   }
 }
