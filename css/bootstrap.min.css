@@ -6829,7 +6829,8 @@ fieldset:disabled .btn {
   color: inherit !important;
 }
 .bg-primary {
-  background-color: #6222cc !important;
+  /* background-color: #6222cc !important; */
+  background-color: #333333 !important;
 }
 .bg-secondary {
   background-color: #fba504 !important;
