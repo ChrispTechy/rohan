@@ -4,8 +4,8 @@
   --primary: #fba504;
   /* --secondary: #fba504; */
   --light: #f6f4f9;
-  --textcolor:#333134;
-  --tertiarycolor:#4E2800;
+  --textcolor: #333134;
+  --tertiarycolor: #4E2800;
   --dark: #04000b;
 }
 
@@ -360,7 +360,8 @@ h6,
 }
 
 .service-item:hover h5,
-.service-item:hover p {
+.service-item:hover p,
+.service-item:hover a {
   color: #ffffff;
 }
 
@@ -375,7 +376,7 @@ h6,
   transition: 0.5s;
   z-index: 1;
 }
-
+/* 
 .service-item a.btn:hover {
   color: var(--dark);
   background: var(--secondary);
@@ -383,7 +384,20 @@ h6,
 
 .service-item:hover a.btn {
   bottom: 0;
+} */
+
+.service-link {
+  text-align: left;
+  margin-top: 2rem;
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--primary);
+  bottom: 0;
 }
+
+/* .service-item.service-link:hover {
+  color: #ffffff;
+} */
 
 /*** Project Portfolio ***/
 #portfolio-flters li {
