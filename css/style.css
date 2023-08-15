@@ -308,6 +308,11 @@ h6,
   width: 0px;
   transition: 3s;
 }
+.btn-primary:hover{
+  background: var(--textcolor);
+  color: #ffffff;
+  border: none;
+}
 
 /*** Fact ***/
 .fact {
