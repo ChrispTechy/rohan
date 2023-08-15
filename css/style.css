@@ -300,6 +300,14 @@ h6,
   background: #ffffff;
 }
 
+
+/* Hero Image */
+.col-lg-6 .hero-img{
+  max-width: 700px;
+  min-height: 300px ;
+  border-radius: 20px;
+}
+
 /*** Feature ***/
 .feature-item {
   transition: 0.5s;
@@ -375,9 +383,12 @@ h6,
 }
 
 .service-item:hover h5,
-.service-item:hover p,
-.service-item:hover a {
+.service-item:hover p
+ {
   color: #ffffff;
+}
+.service-item:hover a{
+  color: var(--textcolor);
 }
 
 .service-item a.btn {
@@ -411,9 +422,6 @@ h6,
   bottom: 0;
 }
 
-/* .service-item.service-link:hover {
-  color: #ffffff;
-} */
 
 /*** Project Portfolio ***/
 #portfolio-flters li {
