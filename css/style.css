@@ -5,7 +5,7 @@
   /* --secondary: #fba504; */
   --light: #f6f4f9;
   --textcolor: #333134;
-  --tertiarycolor: #4E2800;
+  --tertiarycolor: #4e2800;
   --dark: #04000b;
 }
 
@@ -227,9 +227,9 @@ h6,
 .hero-header {
   margin-bottom: 6rem;
   padding: 18rem 0;
-  background: url(../img/blob-top-left.png), url(../img/blob-top-right.png),
+  /* background: url(../img/blob-top-left.png), url(../img/blob-top-right.png),
     url(../img/blob-bottom-left.png), url(../img/blob-bottom-right.png),
-    url(../img/blob-center.png), url(../img/bg-bottom.png);
+    url(../img/blob-center.png), url(../img/bg-bottom.png); */
   background-position: left 0px top 0px, right 0px top 0px, left 0px bottom 0px,
     right 0px bottom 0px, center center, center bottom;
   background-repeat: no-repeat;
@@ -326,7 +326,7 @@ h6,
   width: 0px;
   transition: 3s;
 }
-.btn-primary:hover{
+.btn-primary:hover {
   background: var(--textcolor);
   color: #ffffff;
   border: none;
@@ -521,9 +521,8 @@ h6,
 
 .text-center a:hover h5 {
   color: var(--primary);
-
 }
-.board-title{
+.board-title {
   margin-top: -20px;
   font-size: 16px;
   color: var(--primary);
@@ -612,4 +611,94 @@ h6,
 .footer .copyright a:hover,
 .footer .footer-menu a:hover {
   color: var(--secondary);
+}
+
+/* custom CSS */
+
+/* For about CSS */
+.my-corporate-values-content {
+  display: flex;
+}
+
+.my-corporate-values-content-left {
+  width: 50%;
+  margin: auto;
+  align-items: center;
+}
+
+.my-corporate-values-content-left > p {
+  /* margin-top: 10%; */
+  font-weight: bold;
+  color: black;
+}
+
+.my-corporate-values-content-left > .down-content {
+  display: flex;
+  align-items: center;
+}
+
+.my-corporate-values-content-right {
+  width: 50%;
+}
+
+.my-corporate-values-content-right > ol > li {
+  color: rgb(12, 11, 11);
+  font-weight: bold;
+}
+
+.my-corporate-values-content-right > ol > p {
+  font-size: small;
+}
+
+.down-content {
+  margin-top: 20%;
+}
+
+.down-content > img {
+  height: 70px;
+  width: 70px;
+  margin-right: 5px;
+  border-radius: 10%;
+}
+
+.down-content > p {
+  font-size: small;
+  align-items: center;
+  margin: auto 10px;
+}
+
+.about-us-content {
+  display: flex;
+}
+
+.about-us-content > img {
+  width: 50%;
+}
+
+.about-us-content > p {
+  font-size: 14px;
+}
+
+.my-background-content {
+  display: flex;
+}
+
+.my-background-content > img {
+  width: 50%;
+}
+
+.my-mission-content {
+  display: flex;
+}
+
+.my-mission-content > img {
+  width: 50%;
+}
+
+.my-vision-content{
+  display: flex;
+}
+
+.my-vision-content > img{
+  width: 50%;
 }
