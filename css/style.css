@@ -164,6 +164,11 @@ h6,
   .navbar-light .navbar-brand img {
     max-height: 45px;
   }
+  .right-img{
+    margin-top: -30px;
+    width: 300px;
+    height: auto;
+  }
 }
 
 @media (min-width: 992px) {
@@ -211,6 +216,11 @@ h6,
     color: white;
     background: var(--secondary);
   }
+
+    .right-img{
+      width: 350px;
+      height: auto  ;
+    }
 }
 
 /*** Hero Header ***/
@@ -508,6 +518,14 @@ h6,
   margin-top: -20px;
   font-size: 16px;
   color: var(--primary);
+}
+.social-media{ 
+  margin-top: -3rem;
+}
+
+.social-media a:hover{
+  background: var(--primary);
+  color: #ffffff;
 }
 
 /*** Footer ***/

@@ -514,6 +514,11 @@ progress {
   height: 450px;
   border-radius: 10px;
 }
+.about-img{
+  width:390px ;
+  display: none;
+}
+
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #f6f4f9;
@@ -6628,6 +6633,10 @@ fieldset:disabled .btn {
 .py-5 {
   padding-top: 3rem !important;
   padding-bottom: 3rem !important;
+}
+.pyx-5{
+  margin-top:3%!important ;
+  margin-bottom : -7%;
 }
 .pt-0 {
   padding-top: 0 !important;
