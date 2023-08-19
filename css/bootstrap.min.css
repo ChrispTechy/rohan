@@ -5602,7 +5602,7 @@ fieldset:disabled .btn {
   width: 2rem;
   height: 2rem;
   vertical-align: -0.125em;
-  border: 0.25em solid currentColor;
+  border: 0.25em solid var(--bs-secondary);
   border-right-color: transparent;
   border-radius: 50%;
   animation: 0.75s linear infinite spinner-border;
@@ -5626,7 +5626,7 @@ fieldset:disabled .btn {
   width: 2rem;
   height: 2rem;
   vertical-align: -0.125em;
-  background-color: currentColor;
+  background-color: var(--bs-secondary);
   border-radius: 50%;
   opacity: 0;
   animation: 0.75s linear infinite spinner-grow;
