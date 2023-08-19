@@ -1,7 +1,8 @@
 /********** Template CSS **********/
 :root {
   /* #6222cc; */
-  --primary: #fba504;
+  /* --primary: #fba504; */
+  --primary:#FFC300;
   /* --secondary: #fba504; */
   --light: #f6f4f9;
   --textcolor: #333134;
@@ -330,7 +331,7 @@ h6,
   transition: 3s;
 }
 .btn-primary:hover {
-  background: var(--textcolor);
+  background: #322809;
   color: #ffffff;
   border: none;
 }
