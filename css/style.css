@@ -248,6 +248,7 @@ h6,
   align-items: center;
   font-weight: 500;
   text-transform: uppercase;
+  margin-top: 80px;
 }
 
 .section-title span:first-child,
@@ -679,6 +680,7 @@ h6,
 
 .about-us-content > p {
   font-size: 14px;
+  margin: auto;
 }
 
 .my-background-content {
