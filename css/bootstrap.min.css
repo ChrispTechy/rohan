@@ -1,9 +1,4 @@
-/*!
- * Bootstrap v5.0.0 (https://getbootstrap.com/)
- * Copyright 2011-2021 The Bootstrap Authors
- * Copyright 2011-2021 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
- */
+
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -19,12 +14,14 @@
   --bs-gray: #6c757d;
   --bs-gray-dark: #343a40;
   --bs-primary: #6222cc;
-  --bs-secondary: #fba504;
+  --bs-secondary: #FFC300;
+  --bs-btn-hover:#001D3D;
   --bs-success: #198754;
   --bs-info: #0dcaf0;
   --bs-warning: #ffc107;
   --bs-danger: #dc3545;
   --bs-light: #f6f4f9;
+  --bs-headertext: #000814;
   --bs-dark: #04000b;
   --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif,
@@ -85,7 +82,7 @@ h6,
   font-family: "Jost", sans-serif;
   font-weight: 500;
   line-height: 1.2;
-  color: #04000b;
+  color: var(--bs-headertext);
 }
 h1,
 .h1 {
@@ -2559,13 +2556,13 @@ fieldset:disabled .btn {
 }
 .btn-primary {
   color: #fff;
-  background-color: #fba504;
-  border-color: #fba504;
+  background-color: var(--bs-secondary);
+  /* border-color: #fba504; */
 }
 .btn-primary:hover {
   color: #fff;
-  background-color: #531dad;
-  border-color: #4e1ba3;
+  background-color: #6e540193;
+  /* border-color: #4e1ba3; */
 }
 .btn-check:focus + .btn-primary,
 .btn-primary:focus {
@@ -2599,20 +2596,20 @@ fieldset:disabled .btn {
 .btn-secondary {
   /* color: #000; */
   color: #ffffff;
-  background-color: #fba504;
-  border-color: #fba504;
+  background-color: var(--bs-secondary);
+  /* border-color: #fba504; */
 }
 .btn-secondary:hover {
-  color: #000;
-  background-color: #fcb32a;
-  border-color: #fbae1d;
+  color: #fff;
+  background-color: #322809;
+  /* border-color: #fbae1d; */
 }
 .btn-check:focus + .btn-secondary,
 .btn-secondary:focus {
   color: #000;
   background-color: #fcb32a;
-  border-color: #fbae1d;
-  box-shadow: 0 0 0 0.25rem rgba(213, 140, 3, 0.5);
+  /* border-color: #fbae1d; */
+  /* box-shadow: 0 0 0 0.25rem rgba(213, 140, 3, 0.5); */
 }
 .btn-check:checked + .btn-secondary,
 .btn-check:active + .btn-secondary,
@@ -5605,7 +5602,7 @@ fieldset:disabled .btn {
   width: 2rem;
   height: 2rem;
   vertical-align: -0.125em;
-  border: 0.25em solid currentColor;
+  border: 0.25em solid var(--bs-secondary);
   border-right-color: transparent;
   border-radius: 50%;
   animation: 0.75s linear infinite spinner-border;
@@ -5629,7 +5626,7 @@ fieldset:disabled .btn {
   width: 2rem;
   height: 2rem;
   vertical-align: -0.125em;
-  background-color: currentColor;
+  background-color: var(--bs-secondary);
   border-radius: 50%;
   opacity: 0;
   animation: 0.75s linear infinite spinner-grow;
@@ -6805,7 +6802,7 @@ fieldset:disabled .btn {
   color: #6222cc !important;
 }
 .text-secondary {
-  color: #fba504 !important;
+  color: var(--bs-secondary) !important;
 }
 .text-success {
   color: #198754 !important;
